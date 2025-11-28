@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>素因数分解チャレンジ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" href="prime.css">
+</head>
+<body>
+  <h1>素因数分解チャレンジ</h1>
+
+  <div id="mode-select">
+    <button id="mode-unlimited">無制限モード</button>
+    <button id="mode-limited">制限ありモード（13回）</button>
+  </div>
+
+  <div id="start-area">
+    <button id="start-button">スタート！</button>
+  </div>
+
+  <div id="game-area">
+    <div id="initial-display">問題：<span id="initial-number"></span></div>
+    <div id="current-display">現在の値：<span id="target-number"></span></div>
+    <div id="timer-display">経過時間：<span id="timer">0</span> 秒</div>
+
+    <input type="number" id="input-prime" placeholder="素因数を入力してね！" min="2" max="9999">
+    <button id="reset-button">次の問題へ</button>
+  </div>
+
+  <div id="result"></div>
+  <div id="image-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
