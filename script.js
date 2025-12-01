@@ -82,8 +82,8 @@ function isPrime(num) {
 function initialize() {
   if (!gameStarted) return;
 
-  initialValue = Math.floor(Math.random() * 9900) + 100;
-  // initialValue = 840;
+  // initialValue = Math.floor(Math.random() * 9900) + 100;
+  initialValue = 840;
   target = initialValue;
   factors = [];
   initialNumberSpan.textContent = initialValue;
@@ -192,15 +192,15 @@ resetButton.addEventListener("click", () => {
 // 特定の数字と画像＋説明の対応表
 const specialImages = {
   57: {
-    img: "math1.jpg",
+    img: "math1.png",
     desc: "数学者グロタンディークに関連する数"
   },
   42: {
-    img: "math2.jpg",
+    img: "math2.png",
     desc: "『銀河ヒッチハイク・ガイド』で“生命、宇宙、そして万物の答え”とされる数"
   },
   1729: {
-    img: "math3.jpg",
+    img: "math3.png",
     desc: "ラマヌジャンの“タクシー数”として有名な数"
   }
 };
