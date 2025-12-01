@@ -192,15 +192,15 @@ resetButton.addEventListener("click", () => {
 // 特定の数字と画像＋説明の対応表
 const specialImages = {
   57: {
-    img: "Alexander_Grothendieck.jpg",
+    img: "math1.jpg",
     desc: "数学者グロタンディークに関連する数"
   },
   42: {
-    img: "b006f86_w1.jpg",
+    img: "math2.jpg",
     desc: "『銀河ヒッチハイク・ガイド』で“生命、宇宙、そして万物の答え”とされる数"
   },
   1729: {
-    img: "Srinivasa_Ramanujan.jpg",
+    img: "math3.jpg",
     desc: "ラマヌジャンの“タクシー数”として有名な数"
   }
 };
